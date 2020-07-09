@@ -10,6 +10,7 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     @posts = @user.posts.ordered_by_most_recent
     @mutual = @user.friends & current_user.friends
+    @common_friends = current_user.friends.find(params[:friend_id])
   end
 
   def accept

@@ -2,6 +2,10 @@
   <h2><%= "Name: #{@user.name}" %></h2>
     <h2><%= "Name: #{@user.email}" %></h2>
   <article class="timeline">
+  <h3><%= current_user.name %> friends</h3>
+    <% @common_friends.each do |fr| %>
+      <p><%= fr.name %></p>
+    <% end %>
     <h3>Recent posts:</h3>
     <h4>mutual friends</h4>
     <% @mutual.each do |friend| %>
@@ -12,3 +16,8 @@
     </ul>
   </article>
 </section>
+<%# @common_friends.each do |fr| %>
+  <%# fr.posts.each do |pr| %>
+  <%#= pr.content %>
+  <%# end %>
+<%# end %>
