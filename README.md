@@ -1,7 +1,7 @@
 # Scaffold for social media app with Ruby on Rails
 
 > This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
-
+A friend connection idea
 ## Built With
 
 - Ruby v2.7.0
@@ -9,6 +9,7 @@
 
 ## Live Demo
 (https://lit-wildwood-30179.herokuapp.com/users/sign_in)
+
 TBA
 
 
