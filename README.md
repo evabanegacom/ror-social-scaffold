@@ -7,7 +7,7 @@
 - Ruby v2.7.0
 - Ruby on Rails v5.2.4
 
-## Live Demo
+## Live
 (https://lit-wildwood-30179.herokuapp.com/)
 TBA
 
